@@ -140,7 +140,9 @@ public class MainActivity extends AppCompatActivity implements
 
 
 
-LoginActivity.java:
+""LoginActivity.java:""
+
+
 package com.example.parta.program3;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -182,19 +184,17 @@ count++;
 if(count==3)
 {
 btnLogin.setEnabled(false);
-Toast.makeText(this, "Failed Login Attempts"
-"Failed Logi ,Toast.LENGTH_LONG).show();
+Toast.makeText(this, "Failed Login Attempts""Failed Logi ,Toast.LENGTH_LONG).show();
 }
 else
 {
-Toast.makeText(this,"Login Failed "+count
-,Toast.LENGTH_LONG).show(); }
+Toast.makeText(this,"Login Failed "+count,Toast.LENGTH_LONG).show(); }
 }
 }
 }
 
 
-activity_login.xml:
+""activity_login.xml:""
 
 
 <?xml version="1.0" encoding="utf-8"?>
